@@ -1,0 +1,10 @@
+<h1>Buscar peliculas <small>{{titulo}}</small></h1>
+<hr>
+
+<div class="row mt-5">
+    <div class="col">
+
+        <app-peliculas-poster-grid *ngIf="movieRes.length > 0" [movies]="movieRes"></app-peliculas-poster-grid>
+
+    </div>
+</div>
